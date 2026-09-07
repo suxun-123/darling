@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 生成的预览图（每次 preview.py 重新生成）
+previews/
+
+# 本地 AI 生成环境/模型（在 D:/helmet-ai，不在此仓库）
+*.safetensors
+*.ckpt
+*.bin
+
+# IDE / 系统
+.vscode/
+.idea/
+Thumbs.db
